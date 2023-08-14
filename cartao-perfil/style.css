@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans';
+}
+
+ .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(25, 162, 174);
+      }
+
+.card{
+   
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    width: 290px;
+    height: 330px;
+    background-color: #fff;
+    border-radius: 10px;
+   
+}
+
+.card img {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    margin: 20px;
+    padding-top: 0px;
+    
+}
+h1{
+    font-family: 'Kumbh Sans';
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+p{
+    font-size: 20px;
+    padding: 20px;
+    color: hsl(227, 10%, 46%);
+}
+span{
+    color: hsl(227, 10%, 46%);
+}
+
+
+hr {
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+
+.info1, .info2, .info3{
+    text-align: center;
+    padding-bottom: 0;
+    font-size: 18px;
+}
+
+
+strong{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.footer p {
+    padding: 10px;
+}
