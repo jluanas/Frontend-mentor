@@ -1,0 +1,101 @@
+:root {
+    --cor-titulo::hsl(218, 44%, 22%);
+    --cor-paragrafo: hsl(220, 15%, 55%);
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Outfit:wght@300;400;600 & display=swap');
+
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #D5E1EF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+
+
+.container {
+
+    max-width: 300px;
+   }
+
+.card {
+    padding: 15px;
+     background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 13px black;
+
+}
+.container img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color:var(--cor-titulo) ;
+}
+
+
+p {
+    color: var(--cor-paragrafo);
+    margin: 15px;
+}
+
+
+h2 ,p {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
