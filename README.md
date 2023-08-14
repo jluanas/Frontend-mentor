@@ -1,2 +1,2 @@
 # Frontend mentor
- projetos do site
+Qrcode componente
